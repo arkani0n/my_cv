@@ -60,6 +60,25 @@ p {
     margin-bottom: 0;
 }
 
+a {
+  color: cornflowerblue;
+  font-family: helvetica;
+  text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: cornflowerblue;
+}
+
 abbr[title] {
     text-decoration: none;
     border: none;
