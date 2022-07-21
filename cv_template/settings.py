@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = settings_info.DJANGO_SECURITY_KEY
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['167.99.36.177']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
